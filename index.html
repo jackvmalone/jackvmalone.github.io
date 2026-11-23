@@ -3,43 +3,59 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jack V. Malone</title>
+<title>Jack V. Malone, Ph.D. | GIS and Data Management</title>
 <style>
-  body { font-family: Calibri, Arial, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px; line-height: 1.5; color: #222; }
+  body { font-family: Calibri, Arial, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px; line-height: 1.55; color: #222; }
   h1 { margin-bottom: 0; }
-  img { max-width: 100%; }
-  .project { margin-top: 32px; }
+  h2 { border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-top: 40px; }
+  img { max-width: 100%; height: auto; margin: 8px 0; }
+  .project { margin-top: 28px; }
+  a { color: #1a5fa8; }
 </style>
 </head>
 <body>
 
 <h1>Jack V. Malone, Ph.D.</h1>
-<p>GIS and data manager</p>
+<p>GIS and data management professional | Greensboro, NC</p>
 <p><a href="mailto:jvmalone7@gmail.com">Email</a> |
    <a href="https://www.linkedin.com/in/jack-v-malone/">LinkedIn</a></p>
 
 <h2>Projects</h2>
 
 <div class="project">
-  <h3>Automated stream temperature mapping</h3>
-  <p><strong>Problem:</strong> TEXT HERE</p>
-  <p><strong>What I did:</strong> TEXT HERE</p>
-  <p><strong>Result:</strong> TEXT HERE</p>
-  <img src="stream-map.jpg" alt="Stream temperature map">
-  <p><a href="PASTE-LINK">Paper</a> | <a href="PASTE-LINK">Data and code</a></p>
+  <h3>Automated stream temperature mapping and animation</h3>
+  <p><strong>Problem:</strong> A three-year database of stream temperatures recorded every five minutes at 200 field sites could only be turned into an animation by building hundreds of maps, which would take far too long by hand.</p>
+  <p><strong>What I did:</strong> I developed a Python/ArcPy workflow, with student assistance, that connects to the SQLite database, maps temperatures at all 200 sites for a single point in time, and repeats the process at five-minute increments for any date range. The maps were then assembled in video editing software into an animation.</p>
+  <p><strong>Result:</strong> The workflow automates the creation of the hundreds of maps the animation requires. It was published in <em>Hydrological Processes</em> (2025), and the data and code are on HydroShare.</p>
+  <!-- Add an image: upload a screenshot named stream-map.jpg to this folder, then delete this comment line and the closing line below.
+  <img src="stream-map.jpg" alt="Map of stream temperatures at field sites">
+  -->
+  <p>
+    <a href="https://doi.org/10.1002/hyp.70279">Paper (Hydrological Processes)</a> |
+    <a href="http://www.hydroshare.org/resource/2a3cee530ad342ffb50ca4e1c10f1ef9">Workflow data and code (HydroShare)</a>
+  </p>
 </div>
 
 <div class="project">
-  <h3>Historic aerial imagery classification of Baltimore</h3>
-  <p><strong>Problem:</strong> TEXT HERE</p>
-  <p><strong>What I did:</strong> TEXT HERE</p>
-  <p><strong>Result:</strong> TEXT HERE</p>
-  <img src="aerial.jpg" alt="Aerial imagery classification">
-  <p><a href="PASTE-LINK">Datasets</a></p>
+  <h3>Historic aerial imagery of Baltimore: georectification and land-use/land-cover classification</h3>
+  <p><strong>Problem:</strong> Aerial photographs of Baltimore from 1927 and 1953 needed to be georectified and classified before they could be used in urban landscape studies.</p>
+  <p><strong>What I did:</strong> I supervised and trained students, including NSF Research Experience for Undergraduates and U.S. Forest Service project participants, to georectify, digitize, and classify the imagery into land-use/land-cover datasets.</p>
+  <p><strong>Result:</strong> The georectified mosaics and the land-use/land-cover classifications for both years are published and publicly available through the Environmental Data Initiative.</p>
+  <!-- Add an image: upload a before-and-after image named aerial.jpg to this folder, then delete this comment line and the closing line below.
+  <img src="aerial.jpg" alt="Historic aerial image of Baltimore beside its land-cover classification">
+  -->
+  <p>
+    1927: <a href="https://doi.org/10.6073/pasta/0613ef180f9d79b6d4b194b75d52fb95">georectified mosaic</a>,
+    <a href="https://doi.org/10.6073/pasta/f90ffadede5d2b8748146bc8d86f4684">land-use/land-cover</a><br>
+    1953: <a href="https://doi.org/10.6073/pasta/ed9e357eba35992fa3c76f1f8ab58835">georectified mosaic</a>,
+    <a href="https://doi.org/10.6073/pasta/07f2a5bbd47265d0f86b4c32c8c88b53">land-use/land-cover</a>
+  </p>
 </div>
 
+<!-- Add the resume link after you upload resume.pdf to this folder, then remove these comment markers.
 <h2>Resume</h2>
 <p><a href="resume.pdf">Download my resume (PDF)</a></p>
+-->
 
 </body>
 </html>
