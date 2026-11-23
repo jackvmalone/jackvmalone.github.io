@@ -28,9 +28,13 @@
   <p><strong>Problem:</strong> A three-year database of stream temperatures recorded every five minutes at 200 field sites could only be turned into an animation by building hundreds of maps, which would take far too long by hand.</p>
   <p><strong>What I did:</strong> I developed a Python/ArcPy workflow, with student assistance, that connects to the SQLite database, maps temperatures at all 200 sites for a single point in time, and repeats the process at five-minute increments for any date range. The maps were then assembled in video editing software into an animation.</p>
   <p><strong>Result:</strong> The workflow automates the creation of the hundreds of maps the animation requires. It was published in <em>Hydrological Processes</em> (2025), and the data and code are on HydroShare.</p>
-  <!-- Add an image: upload a screenshot named stream-map.jpg to this folder, then delete this comment line and the closing line below.
-  <img src="stream-map.jpg" alt="Map of stream temperatures at field sites">
-  -->
+  <video controls playsinline preload="metadata" style="max-width:100%; height:auto; margin:12px 0;">
+  <source src="storm-animation.mp4" type="video/mp4">
+  Your browser does not support embedded video.
+  <a href="storm-animation.mp4">Download the animation (MP4)</a>.
+</video>
+<p><em>Example animation of a summer storm: a sudden rise in stream temperature caused by stormwater runoff. The animation begins with relative temperature stability, then shows a flash temperature increase from the storm and subsequent return to temperature stability</em></p>
+  <a href="workflow.jpg"><img src="workflow.jpg" alt="Diagram of the automated stream temperature mapping workflow"></a>
   <p>
     <a href="https://doi.org/10.1002/hyp.70279">Paper (Hydrological Processes)</a> |
     <a href="http://www.hydroshare.org/resource/2a3cee530ad342ffb50ca4e1c10f1ef9">Workflow data and code (HydroShare)</a>
