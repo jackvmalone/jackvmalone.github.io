@@ -25,8 +25,8 @@
 
 <div class="project">
   <h3>Example 1: Automated stream temperature mapping and animation</h3>
-  <p><strong>Problem:</strong> A three-year database of stream temperatures recorded every five minutes at 200 field sites could only be turned into an animation by building hundreds of maps, which would take far too long by hand.</p>
-  <p><strong>What I did:</strong> I developed a Python/ArcPy workflow, with student assistance, that connects to the SQLite database, maps temperatures at all 200 sites for a single point in time, and repeats the process at five-minute increments for any date range. The maps were then assembled in video editing software into an animation.</p>
+  <p><strong>Problem:</strong> Stormwater infiltration has a signifcant impact on stream ecology, vegetation and aquatic wildlife. Long-term, high resolution data measuring temperature fluctuations are uncommon. Visualizations of these temperature fluctuations helps illustrate the impact of storwater runoff. Using 200 stream temperature sensors placed every 50 meters in Dead Run and its tributaries in Baltimre, MD, we collected and built a three-year database of stream temperatures recorded at five-minute interval. These data can only be turned into an animation by building hundreds of static maps, which takes far too long manually and is too sophisticated for ModelBuilder along.</p>
+  <p><strong>What I did:</strong> I developed a Python/ArcPy workflow, with student assistance, that connects to a SQLite database of temperature values, maps temperatures at all 200 sites for a single point in time, and repeats the process at five-minute increments for any date range. The maps are then assembled into an animation using video editing software.</p>
   <p><strong>Result:</strong> The workflow automates the creation of hundreds of maps even a short animation requires. It was published in <em>Hydrological Processes</em> (2025), and the data and code are on HydroShare. See links below.</p>
   <video controls playsinline preload="metadata" style="max-width:100%; height:auto; margin:12px 0;">
   <source src="storm-animation.mp4" type="video/mp4">
