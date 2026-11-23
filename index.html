@@ -25,7 +25,7 @@
 
 <div class="project">
   <h3>Example 1: Automated stream temperature mapping and animation</h3>
-  <p><strong>Problem:</strong> Stormwater infiltration has a signifcant impact on stream ecology, vegetation and aquatic wildlife. Long-term, high resolution data measuring temperature fluctuations are uncommon. Visualizations of these temperature fluctuations help illustrate the impact of storwater runoff. Using 200 stream temperature sensors placed every 50-100 meters in Dead Run and its tributaries in Baltimore, MD, we collected and built a three-year database of stream temperatures recorded at five-minute intervals. These data can only be turned into an animation by building hundreds of static maps, which is manually impractical and too sophisticated for ModelBuilder alone.</p>
+  <p><strong>Problem:</strong> Stormwater infiltration has a significant impact on stream ecology, vegetation and aquatic wildlife. Long-term, high resolution data measuring temperature fluctuations are uncommon. Visualizations of these temperature fluctuations help illustrate the impact of stormwater runoff. Using 200 stream temperature sensors placed every 50-100 meters in Dead Run and its tributaries in Baltimore, MD, we collected and built a three-year database of stream temperatures recorded at five-minute intervals. These data can only be turned into an animation by building hundreds of static maps, which is manually impractical and too sophisticated for ModelBuilder alone.</p>
   <p><strong>What I did:</strong> I developed a Python/ArcPy workflow, and with student assistance, built an iterative algorithm that connects to a SQLite database of temperature values, maps temperatures for all 200 sites at a single time-step, and repeats the process at five-minute increments for any date range. The maps are then assembled into an animation using video editing software.</p>
   <p><strong>Result:</strong> The workflow automates the creation of hundreds of maps that even a short animation would require. It was published in <em>Hydrological Processes</em> (2025), and the data and code are on HydroShare. See links below.</p>
   <video controls playsinline preload="metadata" style="max-width:100%; height:auto; margin:12px 0;">
@@ -49,24 +49,24 @@
 </div>
 
 <div class="project">
-  <h3>Example 2: Historical aerial imagery of Baltimore: georectification and land-use/land-cover classification</h3>
+  <h3>Example 2: Historical aerial imagery of Baltimore: georectification and land-use/land cover classification</h3>
   <p><strong>Problem:</strong> Automated classifications of historical aerial images using a GIS are notoriously difficult due to photographic distortions, wear, angle inconsistencies and spectral similarities of different classes in grayscale photographs. Aerial photographs of Baltimore from 1927 and 1953 needed to be georectified and classified before they could be used in urban landscape studies.</p>
-  <p><strong>What I did:</strong> I developed a workflow then supervised and trained students, including NSF Research Experience for Undergraduates and U.S. Forest Service project participants, to georectify, digitize, and classify the imagery into land-use/land-cover datasets.</p>
-  <p><strong>Result:</strong> The georectified mosaics and the land-use/land-cover classifications for both years are published and publicly available through the Environmental Data Initiative. See links below.</p>
+  <p><strong>What I did:</strong> I developed a workflow then supervised and trained students, including NSF Research Experience for Undergraduates and U.S. Forest Service project participants, to georectify, digitize, and classify the imagery into land-use/land cover datasets.</p>
+  <p><strong>Result:</strong> The georectified mosaics and the land-use/land cover classifications for both years are published and publicly available through the Environmental Data Initiative. See links below.</p>
   <a href="1927-balt.jpg"><img src="1927-balt.jpg" alt="Georectification of 93 historical aerial images of 1927 Baltimore beside its land-use and land cover classification"></a>
  <p><em>Georectification of 93 historical aerial images of 1927 Baltimore beside its land-use and land cover classification. Click to enlarge.</em></p>
   <div style="position:relative; padding-bottom:56.25%; height:0; margin:12px 0;">
   <iframe src="https://www.youtube.com/embed/Y9kXesr6xb0"
-          title="Historic aerial imagery of Baltimore: IALE-North America conference presentation"
+          title="Historical aerial imagery of Baltimore: IALE-North America conference presentation"
           style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
           allowfullscreen></iframe>
 </div>
 <p><em>IALE-North America Conference presentation on the project (10 minutes). Click to play.</em></p>
   <p>
     1927: <a href="https://doi.org/10.6073/pasta/0613ef180f9d79b6d4b194b75d52fb95">georectified mosaic</a>,
-    <a href="https://doi.org/10.6073/pasta/f90ffadede5d2b8748146bc8d86f4684">land-use/land-cover</a><br>
+    <a href="https://doi.org/10.6073/pasta/f90ffadede5d2b8748146bc8d86f4684">land-use/land cover</a><br>
     1953: <a href="https://doi.org/10.6073/pasta/ed9e357eba35992fa3c76f1f8ab58835">georectified mosaic</a>,
-    <a href="https://doi.org/10.6073/pasta/07f2a5bbd47265d0f86b4c32c8c88b53">land-use/land-cover</a>
+    <a href="https://doi.org/10.6073/pasta/07f2a5bbd47265d0f86b4c32c8c88b53">land-use/land cover</a>
   </p>
 </div>
 
